@@ -6,7 +6,7 @@ JSChallenger is an online source for JavaScript coding exercises from beginner t
 
 ### JavaScript basics
 
-- [Sum two numbers]()
+- [Sum two numbers](Fundamentals/basics/challenge-01.js)
 - [Comparison operators, strict equality]()
 - [Get type of value]()
 - [Get nth character of string]()
