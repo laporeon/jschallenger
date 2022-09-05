@@ -6,7 +6,7 @@
 // Return false otherwise
 
 function myFunction(a, b) {
-  return Object.keys(a).every((v) => a[v]);
+  return Object.keys(a).some((key) => key === b && a[key]);
 }
 
 console.log(myFunction({ a: 1, b: 2, c: 3 }, "b")); // Expected: true
