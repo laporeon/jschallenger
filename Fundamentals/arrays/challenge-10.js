@@ -4,7 +4,7 @@
 // It should return an array with the numbers sorted in descending order
 
 function myFunction(arr) {
-  return arr.sort().reverse();
+  return arr.sort((a, b) => b - a);
 }
 
 console.log(myFunction([1, 3, 2])); // Expected: [3,2,1]
